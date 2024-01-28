@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head><title>NEW FORM</title>
+    <style>
+        h1{
+            text-align:center;
+        }
+        #email-id{  
+            border:2px solid black;
+            background-color: white;
+    
+            margin-top:7px;
+            margin-bottom:7px;
+        }
+        #email:focus{
+            color:black;
+            border:0;
+    
+        }
+        #fname{
+            border:2px solid black;
+            background-color:white;
+   
+            margin-top:7px;
+            margin-bottom:7px;
+        }
+        #fname:focus{
+            color:black;
+            border:0;
+   
+        }
+        #password{
+            border:2px solid black;
+            background-color:white;
+   
+            margin-top:7px;
+            margin-bottom:7px;
+        }
+        #password:focus{
+            color:black;
+            border:0;
+   
+        }
+        #lname{
+            border:2px solid black;
+            background-color:white;
+   
+            margin-top:7px;
+            margin-bottom:7px;
+        } 
+        #lname:focus{
+            color:black;
+            border:0;
+        
+        }
+
+        .gow{
+            width: 400px;
+            margin-left: 100px;
+        }
+    </style>
+    </head>
+
+    <body>
+        <form class="gow" onsubmit="signup(event)">
+            <fieldset>
+                <h2>Registration form</h2>
+            <lable for="name"><b>FIRST NAME:</b></lable>
+            <br>
+            <input type="text" id="fname" placeholder="Enter First Name"><br><br>
+            <lable for="last name"><b>LAST NAME:</b></lable>
+            <br>
+            <input type="text" id="lname" placeholder="Enter last name"><br><br>
+
+            <lable for="e-mail" ><b>E-MAIL ID:</b></lable>
+            <br>
+            <input type="text" id="text" placeholder="Enter your Email"><br><br>
+
+            <lable for="password"><b>PASSWORD:</b></lable>
+            <br>
+            <input type="password" id="password" placeholder="Enter Password"><br><br>
+
+            
+        </fieldset>
+        <button type="submit">LOGIN</button>
+        </form>
+        <script src="signup.js" type="module"></script>
+        </body>
+</html>
